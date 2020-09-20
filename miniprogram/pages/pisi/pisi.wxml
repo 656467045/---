@@ -1,0 +1,13 @@
+<!--pages/question3/question3.wxml-->
+
+    <view id="talkbox1" style="position:fixed;z-index:999;color:#9b59b6;font-size:1.5rem">你遇见了：克劳恩皮丝</view>
+    <image bindtap="checked2" mode="scaleToFill" class="backgroundscenery" src="cloud://xly-ugom6.786c-xly-ugom6-1302909523/皮丝.jpg"><view class="uploader"> </view></image>
+    <navigator style="z-index:999" url="../im/room/room" open-type="navigate" class="uploader-text"><image style="top:0.5rem;right:1rem;z-index:999;position:fixed;height:50px;width:50px" src="cloud://xly-ugom6.786c-xly-ugom6-1302909523/聊天.png"></image>
+    </navigator>
+    <view id="talkbox2" class="{{animated?'':'anima1'}}" >
+    <text style="display:block;font-size:1.5rem;color:orange">克罗恩皮丝：</text>
+    <text style="font-size:1.2rem;color:#2c3e50;text-indent:2rem">小心那个火炬，冒失鬼，你可能会发狂的哦.....什么"美国妖精"？记住了，我是皮丝，来自地狱的妖精！</text>
+    </view>
+    <image bindtap="checked1" style="bottom:0.5rem;right:1rem;z-index:999;position:fixed;height:50px;width:50px;" src="cloud://xly-ugom6.786c-xly-ugom6-1302909523/下一步.png"></image>
+    <text style="top:calc(.5rem + 50px);;right:1rem;z-index:999;position:fixed;height:50px;width:50px;font-size:.5rem;color:#e55039;" >评论留言</text>
+

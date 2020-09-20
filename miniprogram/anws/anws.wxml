@@ -1,0 +1,2 @@
+<!--miniprogram/anws/anws.wxml-->
+<text class="anws {{animated?'':'becheck'}}"></text>

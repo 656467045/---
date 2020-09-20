@@ -1,0 +1,38 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/im/im",
+    "pages/im/room/room",
+    "pages/question/question1",
+    "pages/question2/question2",
+    "pages/question3/question3",
+    "pages/question6/question6",
+    "pages/question7/question7",
+    "pages/question5/question5",
+    "pages/question4/question4",
+    "pages/question8/question8",
+    "pages/question9/question9",
+    "components/chatroom/chatroom",
+    "anws/anws",
+    "pages/qilunuo/qilunuo",
+    "pages/dayaojing/dayaojing",
+    "pages/pisi/pisi",
+    "pages/sanyuejing/sanyuejing",
+    "pages/ailisi/ailisi",
+    "pages/molisha/molisha",
+    "pages/yaomeng/yaomeng",
+    "pages/zimei/zimei",
+    "pages/cheng/cheng",
+    "pages/zhengye/zhengye",
+    "pages/end10/end10"
+  ],
+  "window": {
+    "backgroundColor": "#F6F6F6",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#F6F6F6",
+    "navigationBarTitleText": "云开发 QuickStart",
+    "navigationBarTextStyle": "black"
+  },
+  "sitemapLocation": "sitemap.json",
+  "style": "v2"
+}

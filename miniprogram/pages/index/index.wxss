@@ -1,0 +1,268 @@
+/**index.wxss**/
+
+page {
+  background: #f6f6f6;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.userinfo, .uploader, .tunnel {
+  margin-top: 40rpx;
+  height: 140rpx;
+  width: 100%;
+  background: #fff;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-left: none;
+  border-right: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  transition: all 300ms ease;
+}
+
+.userinfo {
+  padding-left: 120rpx;
+}
+
+.userinfo-avatar {
+  width: 100rpx;
+  height: 100rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+  background-size: cover;
+  background-color: white;
+}
+
+.userinfo-avatar[size] {
+  width: 100rpx;
+}
+
+
+.userinfo-avatar:after {
+  border: none;
+}
+
+.userinfo-nickname {
+  font-size: 32rpx;
+  color: #007aff;
+  background-color: white;
+  background-size: cover;
+  text-align: left;
+  padding-left: 0;
+  margin-left: 10px;
+}
+
+.userinfo-nickname::after {
+  border: none;
+}
+
+.userinfo-nickname-wrapper {
+  flex: 1;
+}
+
+.uploader, .tunnel {
+  height: auto;
+  padding: 0 0 0 40rpx;
+  flex-direction: column;
+  align-items: flex-start;
+  box-sizing: border-box;
+}
+
+.uploader-text, .tunnel-text {
+  width: 100%;
+  line-height: 52px;
+  font-size: 34rpx;
+  color: #007aff;
+}
+
+.uploader-container {
+  width: 100%;
+  height: 400rpx;
+  padding: 20rpx 20rpx 20rpx 0;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  box-sizing: border-box;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.uploader-image {
+  width: 100%;
+  height: 360rpx;
+}
+
+.tunnel {
+  padding: 0 0 0 40rpx;
+}
+
+.tunnel-text {
+  position: relative;
+  color: #222;
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  justify-content: space-between;
+  box-sizing: border-box;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.tunnel-text:first-child {
+  border-top: none;
+}
+
+.tunnel-switch {
+  position: absolute;
+  right: 20rpx;
+  top: -2rpx;
+}
+
+.disable {
+  color: #888;
+}
+
+.service {
+  position: fixed;
+  right: 40rpx;
+  bottom: 40rpx;
+  width: 140rpx;
+  height: 140rpx;
+  border-radius: 50%;
+  background: linear-gradient(#007aff, #0063ce);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  transition: all 300ms ease;
+}
+
+.service-button {
+  position: absolute;
+  top: 40rpx;
+}
+
+.service:active {
+  box-shadow: none;
+}
+
+.request-text {
+  padding: 20rpx 0;
+  font-size: 24rpx;
+  line-height: 36rpx;
+  word-break: break-all;
+}
+
+      .container{
+				position: relative;
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				height: 100vh;
+				width: 100vw;
+				background-color: #FFFFFF;
+			}
+			#atfirst{
+        background-image:url(https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1600258050705&di=5ae33f221b95112291819c8fda822d74&imgtype=0&src=http%3A%2F%2Fc-ssl.duitang.com%2Fuploads%2Fitem%2F201412%2F31%2F20141231204636_YFCUi.png);
+        background-size: cover;
+				position: absolute;
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				height: 100%;
+				width: 100%;
+				animation-name: name1,name2,name3;
+				animation-duration: 4s,3s,4s;
+				animation-fill-mode: forwards;
+				transform: scale(0);
+				text-align: center;
+			}
+			#atfirst::after{
+				content: "幻想神隐录";
+				font-size: 1.5rem;
+				color: #FFFFFF;
+				opacity: 0;
+				animation-name: name4;
+				animation-duration: 2s;
+				animation-delay: 4s;
+				animation-fill-mode: forwards;
+      }
+      #toplay{
+        line-height: 1.41176471;
+        font-weight: 700;
+        font-size: 17px;
+        margin-top: 0.5rem;
+        position: relative;
+        top:3rem;
+        color: #FFC0CB;
+        border: #EC971F 5px solid;
+        animation-name: name4;
+        animation-duration: 2s;
+        animation-delay: 4s;
+        animation-fill-mode: forwards;
+        opacity: 0;
+      }
+			@keyframes name4{
+				from{
+					opacity: 0;
+				}
+				to{ 
+					opacity: 1.0;
+				}
+			}
+			@keyframes name3{
+				40%{
+					border-radius: 30px;
+				}
+				50%{
+					border-radius: 50%;
+				}
+				100%{
+					border-radius: 0px;
+				}
+				
+			}
+			@keyframes name2{
+				25%{
+					background-color: #EC971F;
+				}
+				50%{
+					background-color: cyan;
+				}
+				75%{
+					background-color: blueviolet;
+				}
+				100%{
+					background-color: #FFC0CB;
+				}
+			}
+			@keyframes name1{
+				25%{
+					transform: scale(0.5);
+				}
+				50%{
+					transform:scale(1);
+				}
+				75%{
+					transform:scale(0.5) rotate(180deg);
+				}
+				100%{
+					transform: scale(1) rotate(360deg);
+				}
+				
+      }
+      #chatroom{
+        z-index: 1;
+        width: 45%;
+        height: 2rem;
+        position: absolute;
+        bottom: 25%;
+        padding-bottom: 1rem;
+        text-align: center;
+        color: #FFC0CB;
+        border: #EC971F 5px solid;
+        animation-name: name4;
+        animation-duration: 2s;
+        animation-delay: 4s;
+        animation-fill-mode: forwards;
+        opacity: 0;
+      }

@@ -1,0 +1,11 @@
+<!--miniprogram/pages/question/question1.wxml-->
+
+<view id="backgroundscenery">
+  <view id="questionbox">
+  <text>欢迎你，初入幻想之人</text>
+  <text>随着旅行团旅游的你和大伙走散了，你只身来到一所未知的神庙，在此触碰到幻想的境界，你将成为幻想乡中的一员，现在来选择你的种族吧：</text>
+  </view>
+  <text class="anws {{animated1?'':'becheck'}}" bindtap="checked1" >妖精</text>
+  <text class="anws {{animated2?'':'becheck'}}" bindtap="checked2">人类</text>
+  <text class="anws {{animated3?'':'becheck'}}" bindtap="checked3">妖怪</text>
+</view>

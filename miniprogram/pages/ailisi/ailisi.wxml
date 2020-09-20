@@ -1,0 +1,13 @@
+<!--pages/question3/question3.wxml-->
+
+    <view id="talkbox1" style="position:fixed;z-index:999;color:#6c5ce7;font-size:1.4rem">你遇见了:爱丽丝·玛格特洛依德</view>
+    <image bindtap="checked2" mode="scaleToFill" class="backgroundscenery" src="cloud://xly-ugom6.786c-xly-ugom6-1302909523/爱丽丝.jpg"><view class="uploader"> </view></image>
+    <navigator style="z-index:999" url="../im/room/room" open-type="navigate" class="uploader-text"><image style="top:0.5rem;right:1rem;z-index:999;position:fixed;height:50px;width:50px" src="cloud://xly-ugom6.786c-xly-ugom6-1302909523/聊天.png"></image>
+    </navigator>
+    <view id="talkbox2" class="{{animated?'':'anima1'}}" >
+    <text style="display:block;font-size:1.5rem;color:orange">爱丽丝·玛格特洛依德：</text>
+    <text style="font-size:1.2rem;color:#2c3e50;text-indent:2rem">。。。。。。。。。。。那个。你也喜欢人偶吗?</text>
+    </view>
+    <image bindtap="checked1" style="bottom:0.5rem;right:1rem;z-index:999;position:fixed;height:50px;width:50px;" src="cloud://xly-ugom6.786c-xly-ugom6-1302909523/下一步.png"></image>
+    <text style="top:calc(.5rem + 50px);;right:1rem;z-index:999;position:fixed;height:50px;width:50px;font-size:.5rem;color:#e55039;" >评论留言</text>
+

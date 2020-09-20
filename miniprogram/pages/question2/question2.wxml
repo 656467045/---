@@ -1,0 +1,10 @@
+<!--pages/question2/question2.wxml-->
+<view id="backgroundscenery">
+  <view id="questionbox">
+  <text>新生的妖精</text>
+  <text>作为妖精，你是大自然的使者，然而作为曾经为人类的你，与其它妖精不同的是：你从小就坚信：</text>
+  </view>
+  <text class="anws {{animated1?'':'becheck'}}" bindtap="checked1">“妖”生苦短，及时行乐</text>
+  <text class="anws {{animated2?'':'becheck'}}" bindtap="checked2">弱肉强食，自然法则</text>
+  <text class="anws {{animated3?'':'becheck'}}" bindtap="checked3">帮助他人，善有善报</text>
+</view>

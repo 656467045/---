@@ -1,0 +1,9 @@
+<!--pages/question3/question3.wxml-->
+<view id="backgroundscenery">
+  <view id="questionbox">
+  <text>向着幻想出发</text>
+  <text>和伙伴们分别后，你希望前往幻想的最深处,这将是一场你从未设想的路途，然而在幻想乡中，弱小的你或许需要多考虑自身的安全，你再三思索之后，打算前往：</text>
+  </view>
+  <text class="anws {{animated1?'':'becheck'}}" bindtap="checked1">人间之里：人类的村庄</text>
+  <text class="anws {{animated2?'':'becheck'}}" bindtap="checked2">白玉楼：会碰见许多妖怪吧</text>
+</view>

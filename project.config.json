@@ -1,0 +1,179 @@
+{
+	"miniprogramRoot": "miniprogram/",
+	"cloudfunctionRoot": "cloudfunctions/",
+	"setting": {
+		"urlCheck": false,
+		"es6": true,
+		"enhance": true,
+		"postcss": true,
+		"preloadBackgroundData": false,
+		"minified": true,
+		"newFeature": true,
+		"coverView": true,
+		"nodeModules": false,
+		"autoAudits": false,
+		"showShadowRootInWxmlPanel": true,
+		"scopeDataCheck": false,
+		"uglifyFileName": false,
+		"checkInvalidKey": true,
+		"checkSiteMap": true,
+		"uploadWithSourceMap": true,
+		"compileHotReLoad": false,
+		"babelSetting": {
+			"ignore": [],
+			"disablePlugins": [],
+			"outputPath": ""
+		},
+		"useIsolateContext": true,
+		"useCompilerModule": true,
+		"userConfirmedUseCompilerModuleSwitch": false
+	},
+	"appid": "wxd531342ec52952f4",
+	"projectname": "%E4%B8%9C%E6%96%B9%E6%8E%A2%E7%A7%98%E5%BD%95",
+	"libVersion": "2.12.2",
+	"simulatorType": "wechat",
+	"simulatorPluginLibVersion": {},
+	"condition": {
+		"search": {
+			"current": -1,
+			"list": []
+		},
+		"conversation": {
+			"current": -1,
+			"list": []
+		},
+		"plugin": {
+			"current": -1,
+			"list": []
+		},
+		"game": {
+			"list": []
+		},
+		"gamePlugin": {
+			"current": -1,
+			"list": []
+		},
+		"miniprogram": {
+			"current": 0,
+			"list": [
+				{
+					"id": -1,
+					"name": "db guide",
+					"pathName": "pages/databaseGuide/databaseGuide",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "pages/question/question1",
+					"pathName": "pages/question/question1",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/im/im",
+					"pathName": "pages/im/im",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/qilunuo/qilunuo",
+					"pathName": "pages/qilunuo/qilunuo",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/sanyuejing/sanyuejing",
+					"pathName": "pages/sanyuejing/sanyuejing",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": 5,
+					"name": "pages/im/room/room",
+					"pathName": "D:\\微信开发\\微信开发工作区\\touhoufindproject\\miniprogram\\components\\chatroom",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "components/chatroom/chatroom",
+					"pathName": "components/chatroom/chatroom",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/pisi/pisi",
+					"pathName": "pages/pisi/pisi",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/ailisi/ailisi",
+					"pathName": "pages/ailisi/ailisi",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/molisha/molisha",
+					"pathName": "pages/molisha/molisha",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/zhengye/zhengye",
+					"pathName": "pages/zhengye/zhengye",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/dayaojing/dayaojing",
+					"pathName": "pages/dayaojing/dayaojing",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/question8/question8",
+					"pathName": "pages/question8/question8",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/question9/question9",
+					"pathName": "pages/question9/question9",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/yaomeng/yaomeng",
+					"pathName": "pages/yaomeng/yaomeng",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/question9/question9",
+					"pathName": "pages/question9/question9",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/end10/end10",
+					"pathName": "pages/end10/end10",
+					"scene": null
+				}
+			]
+		}
+	}
+}

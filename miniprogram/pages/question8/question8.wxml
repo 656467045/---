@@ -1,0 +1,8 @@
+<!--pages/question3/question3.wxml-->
+<view id="backgroundscenery">
+  <view id="questionbox">
+  <text>去往幻想的深处</text>
+  <text>在踏上路途之后，时间一天天过去，你继续着旅程，沿途中的风景，未曾逢面的旅人，你想记住来自这里的一切，转眼竟到了一条大河旁，船夫向你你缓缓驶来，你知道你需要度过这条河</text>
+  </view>
+  <text class="anws {{animated1?'':'becheck'}}" bindtap="checked1">踏上这条船。。。。</text>
+</view>

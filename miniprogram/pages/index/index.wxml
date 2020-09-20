@@ -1,0 +1,10 @@
+<!--index.wxml-->
+<view class="container">
+
+<navigator bindtap="innerchatroom" id="chatroom" url="../im/room/room" open-type="navigate" class="uploader-text">
+      <text>评论留言版</text>
+  </navigator>
+<view id="atfirst"></view>
+
+<button id="toplay" bindtap="changewebtoplay">点击开始</button>
+</view>

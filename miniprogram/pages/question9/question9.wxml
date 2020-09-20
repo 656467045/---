@@ -1,0 +1,10 @@
+<!--pages/question3/question3.wxml-->
+<view id="backgroundscenery">
+  <view id="questionbox">
+  <text>西行妖下的众人</text>
+  <text style="font-size:1.3rem">渡过河后，你来到一棵枯萎的樱树旁，小憩片刻后，你发现这里竟有人家，耸立在眼前的，是一座白色古楼，你被一股未知的力量吸引着，来到了这座古楼的庭院内，你听见屋内有人悄悄说话，而走廊传来细细碎碎的摩擦声，后院内传来了阵阵清风</text>
+  </view>
+  <text class="anws {{animated1?'':'becheck'}}" bindtap="checked1">进入屋内</text>
+  <text class="anws {{animated2?'':'becheck'}}" bindtap="checked2">穿越走廊</text>
+  <text class="anws {{animated3?'':'becheck'}}" bindtap="checked3">去往后院</text>
+</view>

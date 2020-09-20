@@ -1,0 +1,7 @@
+<!--miniprogram/pages/end10/end10.wxml-->
+<image bindtap="backhome" style="top:0.5rem;right:1rem;z-index:999;position:fixed;height:50px;width:50px;" src="cloud://xly-ugom6.786c-xly-ugom6-1302909523/回到首页.png"></image>
+<text style="top:calc(.5rem + 50px);;right:1rem;z-index:999;position:fixed;height:50px;width:50px;font-size:.5rem" >返回首页</text>
+<view>
+<text>END</text>
+<text>你成功回到了现实世界，从新回归自己的平静生活中，但在幻想乡的记忆，或许永远不会磨灭吧</text>
+</view>

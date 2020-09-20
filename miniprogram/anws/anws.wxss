@@ -1,0 +1,35 @@
+/* miniprogram/anws/anws.wxss */
+.anws{
+  border-radius: 20%;
+  box-shadow:0px 0px 5px 5px #ffffff inset;
+  /* padding-top: 1rem; */
+  text-align: center;
+  color: #ff9f1a;
+  line-height: 4rem;
+  /* text-align: left; */
+  font-style: initial;
+  font-weight: 2rem;
+  font-size: 2rem;
+  font-family: monospace;
+  height: 10%;
+  width: 85%;
+  display: block;
+  border: tan solid 0.5rem;
+}
+.becheck{
+  animation-name: becheck;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+  transition: ease;
+}
+@keyframes becheck{
+  from{
+    transform: rotate(0deg);
+  }
+  30%{
+    transform: rotate(0deg) scale(1.2);
+  }
+  to{
+    transform: rotate(720deg) scale(0);
+  }
+}

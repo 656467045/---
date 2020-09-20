@@ -1,0 +1,10 @@
+<!--pages/question3/question3.wxml-->
+<view id="backgroundscenery">
+  <view id="questionbox">
+  <text>人间之里</text>
+  <text>你来到人间之里，这里正举办着盛大的聚会，各种歌舞宴会正在火生火燎地举办着，每条街道都显得热闹非凡，在路旁，小贩们贩卖着各种各样的商品，其中一件商品引起了你的注意</text>
+  </view>
+  <text class="anws {{animated1?'':'becheck'}}" bindtap="checked1">可爱的人偶</text>
+  <text class="anws {{animated2?'':'becheck'}}" bindtap="checked2">一本沾满吹尘的魔法书</text>
+  <text class="anws {{animated3?'':'becheck'}}" bindtap="checked3">标价10W的破旧塞钱箱</text>
+</view>

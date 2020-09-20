@@ -1,0 +1,10 @@
+<!--pages/question3/question3.wxml-->
+<view id="backgroundscenery">
+  <view id="questionbox">
+  <text>最好的朋友</text>
+  <text>作为妖精，你身边总是有众多的小伙伴，其中你最喜欢的朋友的性格是：</text>
+  </view>
+  <text class="anws {{animated1?'':'becheck'}}" bindtap="checked1">善良友爱，助人为乐</text>
+  <text class="anws {{animated2?'':'becheck'}}" bindtap="checked2">能力高超，堪称最强</text>
+  <text class="anws {{animated3?'':'becheck'}}" bindtap="checked3">乐观开朗，童心未泯</text>
+</view>
